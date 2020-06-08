@@ -28,10 +28,9 @@ Thumbs.db
 # project specific files
 **/*.npz
 **/*.md
-draft_draft.ipynb
-label_candidate_images.ipynb
-random_images.zip
-alternative_training/
+**/*Copy*
+**/*draft*
+notebook_drafts/
 data/
-manual_labels/
 random_images/
+checkpoints/
