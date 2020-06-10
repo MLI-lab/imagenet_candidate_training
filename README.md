@@ -7,7 +7,7 @@ This repository provides code for reproducing the figures in the paper:
 # Downloading the dataset
 The original ImageNet dataset can be downloaded from the official source given by [ILSVRC2012](http://www.image-net.org/challenges/LSVRC/2012/) or by using the [Kaggle mirror](https://www.kaggle.com/c/imagenet-object-localization-challenge/data).
 
-The Flickr candidate dataset is currently not hosted online due to size constraints, however can be re-constructed by providing [this file](metadata/tiny_classes_to_search.json) as the positional argument to the [code for searching and downloading Flickr images](https://www.dropbox.com/s/6pp1z7zaogsyith/flickr_image_search.zip?dl=0).
+The Flickr candidate dataset is currently not hosted online due to size constraints, however can be re-constructed by providing [this file](metadata/imagenet_classes_to_search.json) as the positional argument to the [code for searching and downloading Flickr images](https://www.dropbox.com/s/6pp1z7zaogsyith/flickr_image_search.zip?dl=0).
 
 # Training on the candidate dataset
 While the results in the paper can be reproduced by the included log files, they can also be reproduced by training on the candidate dataset with a wide range of hyperparameters. 
