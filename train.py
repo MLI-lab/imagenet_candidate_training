@@ -17,7 +17,6 @@ import pickle
 from train_utils import (AverageMeter, 
                         save_checkpoint, save_config, 
                         adjust_learning_rate)
-from proj_utils import get_jacobian_prod
 
 import torch
 import torch.nn as nn
